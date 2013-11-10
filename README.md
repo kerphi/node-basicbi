@@ -26,11 +26,11 @@ You can add as much as data sources you want. Each data source must have these p
 * `url`: TODO
 * `cron`: TODO (classic crontab format: `m h dom mon dow`)
 
-Example:
+Example to fetch "My business trends" at "http://my-business/stats/basicbi.json" at 5 a.m every week:
 ```json
 { "name": "My business trends",
   "url": "http://my-business/stats/basicbi.json",
-  "cron": "0 5 * * 1" // at 5 a.m every week
+  "cron": "0 5 * * 1"
 }
 ```
 

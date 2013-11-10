@@ -12,8 +12,8 @@ Global parameter
 ================
 
 ```json
-{ fetchAtStartup: true,
-  xxx: false,
+{ "fetchAtStartup": true,
+  "xxx": false,
 }
 ```
 
@@ -28,9 +28,9 @@ You can add as much as data sources you want. Each data source must have these p
 
 Example:
 ```json
-{ name: 'My business trends',
-  url: 'http://my-business/stats/basicbi.json',
-  cron: '0 5 * * 1' // at 5 a.m every week
+{ "name": 'My business trends',
+  "url": 'http://my-business/stats/basicbi.json',
+  "cron": '0 5 * * 1' // at 5 a.m every week
 }
 ```
 
